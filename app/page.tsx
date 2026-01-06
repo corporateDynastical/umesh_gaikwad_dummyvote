@@ -32,13 +32,13 @@ const SoundCheck = () => {
 
       <div className="text-center mb-4 pt-2">
         <span className="bg-blue-700 font-bold text-white px-4 py-2 inline-block rounded-full">
-          डेमो मतदानासाठी घड्याळ निशाणी समोरील निळे बटन दबावे
+          डेमो मतदानासाठी कमळ निशाणी समोरील निळे बटन दबावे
         </span>
       </div>
 
       <div className="text-center mb-4 pt-2">
         <span className="bg-yellow-200 text-green-800 font-bold px-4 py-2 inline-block rounded dark:bg-yellow-300">
-          राष्ट्रवादी काँग्रेस पार्टीचे प्रभाग क्र. २४-ड चे अधिकृत उमेदवार
+          भारतीय जनता पार्टी, आरपीआय (आठवले गट) प्रभाग क्र. १४-ड चे अधिकृत उमेदवार
         </span>
       </div>
 
@@ -76,11 +76,11 @@ const SoundCheck = () => {
 
                 {/* ❌ NOTA removed — only candidate on row 4 */}
                 <td className="border-2 border-gray-400 px-1 py-1 text-center font-bold text-sm">
-                  {index === 3 ? "गणेश शांताराम नवथरे" : ""}
+                  {index === 0 ? "गायकवाड उमेश ज्ञानेश्वर" : ""}
                 </td>
 
                 <td className="border-2 border-gray-400 px-1 py-1 text-center">
-                  {index === 3 ? (
+                  {index === 0 ? (
                     <img src="/user.png" className="w-12 h-12 mx-auto object-cover" />
                   ) : (
                     <div className="w-10 h-10 mx-auto" />
@@ -88,7 +88,7 @@ const SoundCheck = () => {
                 </td>
 
                 <td className="border-2 border-gray-400 px-1 py-1 text-center">
-                  {index === 3 ? (
+                  {index === 0 ? (
                     <img
                       src="/symbol-bartan.png"
                       className="w-10 h-10 mx-auto object-contain"
@@ -111,7 +111,7 @@ const SoundCheck = () => {
                 <td className="border-2 border-gray-400 px-1 py-1 text-center bg-white dark:bg-gray-800">
                   <button
                     onClick={() =>
-                      index === 3 ? playButtonSound(index) : playOtherButtonSound(index)
+                      index === 0 ? playButtonSound(index) : playOtherButtonSound(index)
                     }
                     className={`h-7 rounded-full ${
                       index === 3 ? "bg-green-500 w-14" : "bg-blue-700 w-14"
@@ -125,8 +125,8 @@ const SoundCheck = () => {
       </div>
 
       <h1 className="text-center text-xl font-bold mb-4 mt-6">
-        <span className="text-red-600">घड्याळ</span> या निशाणी समोरील बटन दाबून{" "}
-        <span className="text-red-600">गणेश शांताराम नवथरे </span> यांना प्रचंड बहुमतांनी विजय करा.
+        <span className="text-red-600">कमळ</span> या निशाणी समोरील बटन दाबून{" "}
+        <span className="text-red-600">गायकवाड उमेश ज्ञानेश्वर </span> यांना प्रचंड बहुमतांनी विजय करा.
       </h1>
 
       <div className="text-center mb-4 pt-2">
