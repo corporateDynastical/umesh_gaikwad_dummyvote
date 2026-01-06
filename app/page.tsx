@@ -114,7 +114,7 @@ const SoundCheck = () => {
                       index === 0 ? playButtonSound(index) : playOtherButtonSound(index)
                     }
                     className={`h-7 rounded-full ${
-                      index === 3 ? "bg-green-500 w-14" : "bg-blue-700 w-14"
+                      index === 0 ? "bg-green-500 w-14" : "bg-blue-700 w-14"
                     }`}
                   />
                 </td>
