@@ -61,7 +61,7 @@ const SoundCheck = () => {
 
           <tbody>
             {[...Array(10)].map((_, index) => (
-              <tr key={index} className="bg-[#9fdaeb] dark:bg-gray-800">
+              <tr key={index} className="dark:bg-gray-800">
                 {/* Small width col */}
                 <td className="border-2 border-gray-400 w-10 px-2 md:px-1 py-1 text-center font-bold text-sm">
                   {index + 1}
