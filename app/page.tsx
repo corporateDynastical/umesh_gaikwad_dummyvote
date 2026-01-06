@@ -30,7 +30,7 @@ const SoundCheck = () => {
 
       <div className="text-center mb-4 pt-2">
         <span className="bg-yellow-200 text-green-800 font-bold px-4 py-2 inline-block rounded dark:bg-yellow-300">
-          भारतीय जनता पार्टी, आरपीआय (आठवले गट) प्रभाग क्र. १४-ड चे अधिकृत उमेदवार
+          भारतीय जनता पार्टी, आरपीआय (आठवले गट) प्रभाग क्र. १४ (ड) चे अधिकृत उमेदवार
         </span>
       </div>
 
