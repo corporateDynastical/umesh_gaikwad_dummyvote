@@ -19,7 +19,7 @@ const SoundCheck = () => {
   return (
     <section className="bg-gray-100 dark:bg-gray-900 px-4 md:px-24 py-6 text-black dark:text-white">
       <h1 className="text-center text-xl font-bold mb-4 pt-2">
-        पुणे महानगरपालिका सार्वत्रिक निवडणूक - २०२६ डमी मतदान यंत्रb
+        पुणे महानगरपालिका सार्वत्रिक निवडणूक - २०२६ डमी मतदान यंत्र
       </h1>
 
       <div className="text-center mb-4 pt-2">
@@ -61,7 +61,7 @@ const SoundCheck = () => {
 
           <tbody>
             {[...Array(10)].map((_, index) => (
-              <tr key={index} className="bg-blue-300 dark:bg-gray-800">
+              <tr key={index} className="bg-[#99DCDC] dark:bg-gray-800 dark:bg-gray-800">
                 {/* Small width col */}
                 <td className="border-2 border-gray-400 w-10 px-2 md:px-1 py-1 text-center font-bold text-sm">
                   {index + 1}
