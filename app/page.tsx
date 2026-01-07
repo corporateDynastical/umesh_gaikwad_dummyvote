@@ -84,11 +84,11 @@ const SoundCheck = () => {
                 </td>
 
                 <td className="border-2 border-gray-400 px-4 md:px-2 py-1 text-center font-bold text-sm min-w[110px] break-words">
-                  {index === 3 ? "गायकवाड उमेश ज्ञानेश्वर" : ""}
+                  {index === 0 ? "गायकवाड उमेश ज्ञानेश्वर" : ""}
                 </td>
 
                 <td className="border-2 border-gray-400 px-2 md:px-1 py-1 text-center">
-                  {index === 3 ? (
+                  {index === 0 ? (
                     <img src="/user.png" className="w-12 h-12 mx-auto object-cover" />
                   ) : (
                     <div className="w-10 h-10 mx-auto" />
@@ -96,7 +96,7 @@ const SoundCheck = () => {
                 </td>
 
                 <td className="border-2 border-gray-400 px-2 md:px-1 py-1 text-center">
-                  {index === 3 ? (
+                  {index === 0 ? (
                     <img src="/symbol-bartan.png" className="w-10 h-10 mx-auto object-contain" />
                   ) : (
                     <div className="w-10 h-10 mx-auto" />
@@ -114,10 +114,10 @@ const SoundCheck = () => {
                 <td className="border-2 border-gray-400 px-2 md:px-1 py-1 text-center bg-white dark:bg-gray-800">
                   <button
                     onClick={() =>
-                      index === 3 ? playButtonSound(index) : playOtherButtonSound(index)
+                      index === 0 ? playButtonSound(index) : playOtherButtonSound(index)
                     }
                     className={`rounded-full w-10 h-6 md:w-14 md:h-7 ${
-                      index === 3 ? "bg-green-500" : "bg-blue-700"
+                      index === 0 ? "bg-green-500" : "bg-blue-700"
                     }`}
                   />
                 </td>
